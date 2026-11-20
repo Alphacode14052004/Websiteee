@@ -560,7 +560,7 @@ h1 em { color: #9d586a; font-weight: 400; }
   .art-book__title { font-size: 22px; }
   .art-book__rule { width: 24px; margin-bottom: 8px; }
   .book-shadow { width: 220px; height: 28px; bottom: 8px; left: calc(50% - 110px); }
-  .paper-note { right: calc(50% - 178px); bottom: 12px; width: 123px; height: 77px; padding: 21px 13px; }
+  .paper-note { right: max(0px, calc(50% - 178px)); bottom: 12px; width: 123px; height: 77px; padding: 21px 13px; }
   .paper-note::before { inset: 6px; }
   .paper-note__scribble { font-size: 11px; }
   .paper-note__line { width: 42px; margin-top: 12px; }
